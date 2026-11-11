@@ -1,35 +1,66 @@
+---
+sidebar_label: Getting Started
+title: AI Short Quick Start | Copy Prompts to ChatGPT/DeepSeek
+description: Start boosting AI productivity in 30 seconds! Copy curated prompts to ChatGPT, Gemini, Claude, DeepSeek and other AI models to instantly improve conversation quality.
+---
+
 # Getting Started
 
-AiShort defaults to displaying all the suggested words. The page is divided into three sections: the tag area, the search area, and the suggested words display area.
+Good prompts determine the quality of AI output. AiShort offers a large library of curated prompts — just copy and paste.
 
-![](https://img.newzone.top/2023-06-05-20-44-19.png?imageMogr2/format/webp)
+> 📋 **Before you start**: You need a browser and access to any AI tool — a chat page (ChatGPT, Gemini, Claude, Doubao, etc.), a coding tool like Cursor, or your own API calls. The AiShort web app itself requires no registration.
 
-## 🏷︎ Tag Filtering
+## Basic Usage
 
-The tag area is divided based on the domain and functionality of the suggested words, allowing for selection based on different scenarios and needs. It can be used in conjunction with the "Tag Filtering Rule Toggle" button in the upper right corner of the tag area to perform multi-tag filtering. The default state is OR, which selects all the suggested words under the chosen tag. Switching to AND will filter out the suggested words that have multiple selected tags.
+1. Search or browse for a prompt you like on the homepage
+2. Find a suitable prompt and click "Copy" (or open the card first to read the full content)
+3. Paste it into any AI tool — a chat page, a coding tool like Cursor, or your own API calls
+4. Fill in the **placeholders** in the prompt (such as `[content]`, `[topic]`) with your specific request, then send it to the AI
 
-![](https://img.newzone.top/2023-06-05-20-50-19.png?imageMogr2/format/webp)
+![](/img/docs/how-to-use-aishort.webp)
 
-## 🔍 Keyword Search
+> 💡 **Tip**: Most prompts use square brackets `[...]` to mark text you should replace — swap the placeholder inside the brackets for your own content.
 
-The keyword search scope includes the titles, summaries, content, and translations in your native language of the suggested words. After entering a keyword, the suggested words display area will immediately show the filtered content. If tags have been selected, the keyword search will be limited to the scope of the selected tags. On the PC side, after the content in the search box changes, the new search results will be displayed after 800 milliseconds. On mobile devices, it updates instantly.
+## Quick Access
 
-![](https://img.newzone.top/2023-06-05-20-58-07.png?imageMogr2/format/webp)
+| I want to...               | Where to go                            |
+| -------------------------- | -------------------------------------- |
+| Copy & use prompts         | Search or browse on the [Home](/) page |
+| Call prompts from AI pages | [Browser Extension](../extension/)     |
+| Collect & manage prompts   | [My Collection](./my-collection)       |
+| Create my own prompts      | [Custom Prompts](./user-prompts)       |
+| Register or log in         | [Account Management](./account)        |
+| Discover community shares  | [Community Prompts](./community)       |
+| Offline / intranet deploy  | [Offline Edition](../deploy/offline)           |
 
-## 🔬 Prompt Copy
+## Common AI Models
 
-Through tag filtering and keyword search, clicking the "Copy" button in the upper right corner of the card allows you to obtain the suggested words. After pasting them into ChatGPT, you can refer to the suggestions and adjust the text according to your specific needs to obtain a reply in the desired domain. If the native language explanation in the suggested words is not clear, you can click the link in the lower right corner of the suggested words to view the source webpage.
+### International Models
 
-![](https://img.newzone.top/2023-06-11-17-14-07.png?imageMogr2/format/webp)
+- [ChatGPT](https://chatgpt.com)
+- [Gemini](https://gemini.google.com/app)
+- [Claude](https://claude.ai/chats)
+- [Grok](https://grok.com/)
 
-## 💬 Language Switching
+### Mainland China Models
 
-By default, the suggested words are displayed in English. If you are using a non-English page and want to view the interpretations in your native language, please click on the suggested words content to switch to a non-English language, and click again to switch back to English. Please note that language switching only works when clicking on the text in the prompt, and clicking in the blank area is ineffective.
+- [DeepSeek](https://chat.deepseek.com)
+- [Tongyi Qianwen](https://www.qianwen.com/)
+- [Ernie Bot](https://yiyan.baidu.com)
+- [Doubao](https://www.doubao.com/chat/)
+- [Kimi](https://www.kimi.com/)
+- [ChatGLM](https://chatglm.cn/detail)
+- [iFLYTEK Spark](https://xinghuo.xfyun.cn/)
+- [Tencent Yuanbao](https://yuanbao.tencent.com/chat)
 
-![Switching between Chinese and English](http://img.newzone.top/chatgptshortcut_encn.gif)
+### API Platforms
 
-If you want the suggested words to be displayed in your native language by default, you can click the "Switch Prompt Language" button in the upper right corner of the tag area. However, please note that even when switching to native language translations, the copy button only copies the English suggested words.
+- [OpenRouter](https://openrouter.ai/chat)
+- [SiliconFlow](https://cloud.siliconflow.cn/playground/chat)
+- [Groq](https://groq.com/)
 
-## 🔥 Popular Sorting
+## Related Documentation
 
-The page now displays the frequency of prompt usage, and prompts with higher usage frequency will be marked as "favorite". Additionally, the sorting of prompt tags will be primarily based on the heat value. The heat value will be periodically updated.
+- [Interface Guide](./interface) - Search and filter functions
+- [My Collection](./my-collection) - Collection, tags, and sorting
+- [Account Management](./account) - Login and registration

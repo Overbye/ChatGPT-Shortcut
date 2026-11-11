@@ -1,35 +1,61 @@
-# Guide de démarrage
+---
+sidebar_label: Bien commencer
+title: Guide de démarrage AI Short | Copiez des prompts vers ChatGPT, DeepSeek
+description: Prise en main en 30 secondes ! Copiez des prompts vers ChatGPT, Gemini, DeepSeek et d'autres modèles d'IA pour améliorer instantanément la qualité de vos conversations et votre productivité.
+---
 
-AiShort affiche par défaut tous les mots suggérés. La page est divisée en trois sections : la zone des balises, la zone de recherche et la zone d'affichage des mots suggérés.
+# Bien commencer
 
-![](https://img.newzone.top/2023-06-05-20-44-19.png?imageMogr2/format/webp)
+Un bon prompt détermine la qualité de la réponse de l'IA. AiShort rassemble une grande sélection de prompts éprouvés, prêts à copier-coller.
 
-## 🏷︎ Filtrage par balises
+> 📋 **Avant de commencer**, vous aurez besoin : d'un navigateur + d'un outil d'IA — page de chat (ChatGPT, Gemini, Claude, Le Chat de Mistral…), outil de programmation (Cursor, Copilot…), accès API, agent ou tout autre client. La version web d'AiShort ne nécessite aucune inscription.
 
-La zone des balises est divisée en fonction du domaine et de la fonctionnalité des mots suggérés, permettant une sélection en fonction de différents scénarios et besoins. Elle peut être utilisée en combinaison avec le bouton "Règle de filtrage par balises" situé dans le coin supérieur droit de la zone des balises pour effectuer un filtrage multi-balises. L'état par défaut est OR, ce qui sélectionne tous les mots suggérés sous la balise choisie. En passant en mode AND, les mots suggérés ayant plusieurs balises sélectionnées seront filtrés.
+## Utilisation de base
 
-![](https://img.newzone.top/2023-06-05-20-50-19.png?imageMogr2/format/webp)
+1. Recherchez ou parcourez les prompts qui vous intéressent sur la page d'accueil
+2. Une fois le bon prompt trouvé, cliquez sur "Copier" (ou ouvrez d'abord la carte pour voir le contenu complet)
+3. Collez-le dans n'importe quel outil d'IA — page de chat, outil de programmation, appel d'API, agent, etc.
+4. Complétez les **espaces réservés** du prompt (par exemple `[contenu]`, `[sujet]`) avec vos besoins spécifiques, puis envoyez à l'IA
 
-## 🔍 Recherche par mot-clé
+![](/img/docs/how-to-use-aishort.webp)
 
-La recherche par mot-clé inclut les titres, les résumés, le contenu et les traductions dans votre langue maternelle des mots suggérés. Après avoir saisi un mot-clé, la zone d'affichage des mots suggérés affichera immédiatement le contenu filtré. Si des balises ont été sélectionnées, la recherche par mot-clé sera limitée à la portée des balises sélectionnées. Côté PC, après que le contenu dans la zone de recherche change, les nouveaux résultats de recherche s'afficheront après 800 millisecondes. Sur les appareils mobiles, la mise à jour est instantanée.
+> 💡 **Astuce** : la plupart des prompts utilisent des crochets `[...]` pour marquer le contenu que vous devez fournir — remplacez simplement le texte entre crochets par votre contenu spécifique.
 
-![](https://img.newzone.top/2023-06-05-20-58-07.png?imageMogr2/format/webp)
+## Accès rapide
 
-## 🔬 Copie du prompt
+| Je veux...                              | Où aller                                             |
+| --------------------------------------- | ---------------------------------------------------- |
+| Copier et utiliser des prompts          | Rechercher ou parcourir directement sur [Accueil](/) |
+| Appeler un prompt depuis une page IA    | [Extension navigateur](../extension/)                |
+| Collectionner et gérer des prompts      | [Ma collection](./my-collection)                     |
+| Créer mes propres prompts               | [Prompts personnalisés](./user-prompts)              |
+| M'inscrire ou me connecter              | [Gestion de compte](./account)                       |
+| Découvrir les partages de la communauté | [Prompts de la communauté](./community)              |
+| Déploiement hors ligne / intranet       | [Version déploiement hors ligne](../deploy/offline)          |
 
-Grâce au filtrage par balises et à la recherche par mot-clé, en cliquant sur le bouton "Copier" dans le coin supérieur droit de la carte, vous pouvez obtenir les mots suggérés. Après les avoir collés dans ChatGPT, vous pouvez vous référer aux suggestions et ajuster le texte selon vos besoins spécifiques pour obtenir une réponse dans le domaine souhaité. Si l'explication en langue maternelle dans les mots suggérés n'est pas claire, vous pouvez cliquer sur le lien dans le coin inférieur droit des mots suggérés pour afficher la page web source.
+## Modèles d'IA courants
 
-![](https://img.newzone.top/2023-06-11-17-14-07.png?imageMogr2/format/webp)
+### Principaux modèles internationaux
 
-## 💬 Changement de langue
+- [ChatGPT](https://chatgpt.com) (OpenAI)
+- [Gemini](https://gemini.google.com/app) (Google)
+- [Claude](https://claude.ai/chats) (Anthropic)
+- [Le Chat](https://chat.mistral.ai/) (Mistral AI, France)
+- [Grok](https://grok.com/) (xAI)
+- [DeepSeek](https://chat.deepseek.com) (open source, performant et gratuit)
 
-Par défaut, les mots suggérés sont affichés en anglais. Si vous utilisez une page non anglaise et souhaitez voir les interprétations dans votre langue maternelle, veuillez cliquer sur le contenu des mots suggérés pour passer à une langue non anglaise, et cliquez à nouveau pour revenir à l'anglais. Veuillez noter que le changement de langue ne fonctionne que lorsque vous cliquez sur le texte dans le prompt, et cliquer dans la zone vide est inefficace.
+### Plateformes API et agrégateurs
 
-![Passage entre le chinois et l'anglais](http://img.newzone.top/chatgptshortcut_encn.gif)
+- [OpenRouter](https://openrouter.ai/chat) — accès unifié à de nombreux modèles
+- [Groq](https://groq.com/) — inférence à très faible latence
+- [Hugging Face Chat](https://huggingface.co/chat/) — modèles open source hébergés
 
-Si vous souhaitez que les mots suggérés soient affichés par défaut dans votre langue maternelle, vous pouvez cliquer sur le bouton "Changer la langue du prompt" dans le coin supérieur droit de la zone des balises. Cependant, veuillez noter que même en passant aux traductions en langue maternelle, le bouton de copie ne copie que les mots suggérés en anglais.
+### Modèles de Chine continentale
 
-## 🔥 Tri par popularité
+Si vous travaillez avec un public sinophone ou recherchez des alternatives spécifiques, il existe également plusieurs modèles chinois : Tongyi Qianwen, Ernie Bot, Doubao, Kimi, ChatGLM, iFLYTEK Spark, Tencent Yuanbao. Ces services exigent en général une inscription avec un numéro de téléphone chinois.
 
-La page affiche maintenant la fréquence d'utilisation des prompts, et les prompts les plus utilisés seront marqués comme "favoris". De plus, le tri des balises des prompts sera principalement basé sur la valeur de popularité. La valeur de popularité sera mise à jour périodiquement.
+## Documentation associée
+
+- [Guide de l'interface](./interface) - Fonctions de recherche et de filtrage
+- [Ma collection](./my-collection) - Collection, balises et tri
+- [Gestion de compte](./account) - Connexion et inscription

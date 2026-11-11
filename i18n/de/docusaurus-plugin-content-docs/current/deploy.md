@@ -1,42 +1,30 @@
-# Bereitstellung
+---
+sidebar_label: Bereitstellung
+title: AI Short Bereitstellung - Vercel & Docker
+description: Einfache Bereitstellung Ihrer Prompt-Bibliothek. Anleitungen für Vercel, Docker und automatische Updates.
+---
 
-## Bereitstellung mit Vercel
+# Projektbereitstellung
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
+> **Für wen ist das gedacht**: Entwickler, die AiShort selbst hosten oder anpassen möchten. Normale Nutzer können einfach [aishort.top](https://www.aishort.top) verwenden — dieser Abschnitt ist für Sie nicht relevant.
 
-## Installation
+## Bereitstellungsmodell wählen
 
-```shell
-# Installation
-yarn
+Wählen Sie das Modell, das Ihren Anforderungen entspricht:
 
-# Lokale Entwicklung
-yarn start
+| Modell                            | Backend                                          | Hinweise                                                                                                                                                                                          |
+| --------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Standard** (Standard)           | Nutzt das offizielle gemeinsame Backend          | Nach dem Forken können Sie Sitename, Beschreibung, Prompts usw. anpassen (siehe [Konfiguration](./deploy/configuration)); Login, Favoriten, Community und Synchronisierung funktionieren sofort |
+| **Offline-Edition**               | Kein Backend, Daten lokal im Browser gespeichert | Für abgeschirmte Unternehmens- oder Behördennetzwerke; kein Konto erforderlich                                                                                                                    |
+| **Vollständig selbst gehostetes Backend** | Eigenes unabhängiges Backend              | Wenn Sie ein unabhängiges Kontosystem, vollständige Datenkontrolle und eine private Community benötigen                                                                                           |
 
-# Build: Dieser Befehl generiert statischen Inhalt im Verzeichnis "build"
-yarn build
-```
+Die ersten beiden werden in diesem Leitfaden behandelt. Für das dritte Modell ist der Backend-Dienst nicht Open Source — bitte [schreiben Sie dem Entwickler eine E-Mail](mailto:qingwhat@gmail.com) mit einer kurzen Beschreibung Ihres Anwendungsfalls und der erwarteten Größenordnung, um einen Bereitstellungsplan und Unterstützung zu erhalten.
 
-## Synchronisierte Updates
+## Bereitstellungsdokumentation
 
-Wenn Sie Ihr eigenes Projekt mit einem einzigen Klick auf Vercel bereitgestellt haben, kann es vorkommen, dass Updates konsistent angezeigt werden. Dies liegt an Vercels Standardverhalten, ein neues Projekt für Sie zu erstellen, anstatt das aktuelle Projekt zu forken, was eine ordnungsgemäße Erkennung von Updates behindert. Es wird empfohlen, die folgenden Schritte für die erneute Bereitstellung zu befolgen:
+Aufgeteilt nach Bereitstellungsablauf in die folgenden Abschnitte — lesen Sie nach Bedarf:
 
-1. Entfernen Sie das vorherige Repository.
-2. Verwenden Sie die Schaltfläche "Fork" in der oberen rechten Ecke der Seite, um das aktuelle Projekt zu forken.
-3. Wählen Sie auf der [Vercel-New-Project-Seite](https://vercel.com/new) das kürzlich geforkte Projekt im Abschnitt "Import Git Repository" aus und fahren Sie mit der Bereitstellung fort.
-
-### Automatische Updates
-
-> Wenn bei der Ausführung von Upstream Sync ein Fehler auftritt, führen Sie manuell eine einzelne Sync Fork aus.
-
-Sobald Sie das Projekt geforkt haben, ist es aufgrund von GitHub-Einschränkungen erforderlich, Workflows manuell auf der Actions-Seite Ihres geforkten Projekts zu aktivieren und die Upstream-Sync-Aktion zu aktivieren. Nach der Aktivierung werden Updates automatisch täglich durchgeführt.
-
-![Automatische Updates](https://img.newzone.top/2023-05-19-11-57-59.png?imageMogr2/format/webp)
-
-![Aktivieren der automatischen Updates](https://img.newzone.top/2023-05-19-11-59-26.png?imageMogr2/format/webp)
-
-### Manuelle Updates
-
-Wenn Sie sofort ein manuelles Update durchführen möchten, können Sie sich in der [Dokumentation von GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) darüber informieren, wie Sie das geforkte Projekt mit dem Upstream-Code synchronisieren.
-
-Zeigen Sie gerne Ihre Unterstützung für dieses Projekt, indem Sie ihm einen Stern/Follow geben oder dem Autor folgen, um rechtzeitig über neue Funktionsupdates informiert zu werden.
+- **[Standard-Bereitstellung](./deploy/standard)** — Nutzt das offizielle gemeinsame Backend, unterstützt lokalen Build, Vercel, Cloudflare Pages und Docker.
+- **[Offline-Bereitstellung](./deploy/offline)** — Offline-Lösung für abgeschirmte Unternehmens- oder Behördennetzwerke, ohne Backend und ohne Konto.
+- **[Konfiguration und Anpassung](./deploy/configuration)** — Ändern von Site-Titel, Beschreibung und Prompts sowie Anbindung eines benutzerdefinierten Backends.
+- **[Fork synchron halten](./deploy/sync-updates)** — Lassen Sie Ihren Fork automatisch dem Upstream folgen, um nicht zurückzufallen.

@@ -1,35 +1,69 @@
+---
+sidebar_label: Erste Schritte
+title: AI Short Erste Schritte | Prompts in ChatGPT/DeepSeek kopieren
+description: In 30 Sekunden starten! Kopieren Sie Prompts in ChatGPT, Gemini, DeepSeek und andere KI-Modelle, um sofort Gesprächsqualität und Produktivität zu steigern.
+---
+
 # Erste Schritte
 
-AiShort zeigt standardmäßig alle vorgeschlagenen Wörter an. Die Seite ist in drei Abschnitte unterteilt: den Tag-Bereich, den Suchbereich und den Bereich zur Anzeige der vorgeschlagenen Wörter.
+Gute Prompts bestimmen die Qualität der KI-Ausgabe. AiShort bietet eine große Auswahl an kuratierten Prompts — einfach kopieren und einfügen.
 
-![](https://img.newzone.top/2023-06-05-20-44-19.png?imageMogr2/format/webp)
+> 📋 **Was Sie brauchen**: Einen Browser und ein beliebiges zugängliches KI-Tool — eine Chat-Seite (ChatGPT, Gemini, Claude usw.), ein Programmier-Tool (Cursor o. Ä.), einen API-Zugang oder eine andere KI-Anwendung. Die Web-Version von AiShort erfordert keine Registrierung.
 
-## 🏷︎ Tag-Filterung
+## Grundlegende Nutzung
 
-Der Tag-Bereich ist nach dem Bereich und der Funktionalität der vorgeschlagenen Wörter unterteilt, um eine Auswahl basierend auf verschiedenen Szenarien und Bedürfnissen zu ermöglichen. Er kann in Verbindung mit dem "Tag-Filterung Regel Umschalter" in der oberen rechten Ecke des Tag-Bereichs verwendet werden, um eine Mehr-Tag-Filterung durchzuführen. Der Standardzustand ist ODER, was alle vorgeschlagenen Wörter unter dem gewählten Tag auswählt. Durch Umschalten auf UND werden die vorgeschlagenen Wörter herausgefiltert, die mehrere ausgewählte Tags haben.
+1. Suchen oder durchsuchen Sie interessante Prompts auf der Startseite
+2. Klicken Sie bei einem passenden Prompt auf "Kopieren" (oder öffnen Sie zuerst die Karte für den vollständigen Inhalt)
+3. Fügen Sie den Prompt in ein beliebiges KI-Tool ein — Chat-Seiten wie ChatGPT, Gemini oder Claude, Programmier-Tools wie Cursor, API-Aufrufe oder andere KI-Anwendungen
+4. Ersetzen Sie die **Platzhalter** im Prompt (wie `[Inhalt]`, `[Thema]`) durch Ihre konkreten Anforderungen und senden Sie ihn an die KI
 
-![](https://img.newzone.top/2023-06-05-20-50-19.png?imageMogr2/format/webp)
+![](/img/docs/how-to-use-aishort.webp)
 
-## 🔍 Stichwortsuche
+> 💡 **Tipp**: Die meisten Prompts markieren mit eckigen Klammern `[...]` die Stellen, die Sie ergänzen müssen — ersetzen Sie einfach den Platzhaltertext in den Klammern durch Ihren konkreten Inhalt.
 
-Der Suchbereich umfasst die Titel, Zusammenfassungen, Inhalte und Übersetzungen in Ihrer Muttersprache der vorgeschlagenen Wörter. Nach Eingabe eines Stichworts wird der Bereich zur Anzeige der vorgeschlagenen Wörter sofort den gefilterten Inhalt anzeigen. Wenn Tags ausgewählt wurden, wird die Stichwortsuche auf den Bereich der ausgewählten Tags beschränkt. Auf der PC-Seite werden nach Änderung des Inhalts im Suchfeld die neuen Suchergebnisse nach 800 Millisekunden angezeigt. Auf mobilen Geräten erfolgt die Aktualisierung sofort.
+## Schnellzugriff
 
-![](https://img.newzone.top/2023-06-05-20-58-07.png?imageMogr2/format/webp)
+| Ich möchte...                       | Wohin                                          |
+| ----------------------------------- | ---------------------------------------------- |
+| Prompts kopieren und verwenden      | Direkt auf [Startseite](/) suchen oder stöbern |
+| Auf KI-Konversationsseiten aufrufen | [Browser-Erweiterung](../extension/)           |
+| Prompts sammeln und verwalten       | [Meine Sammlung](./my-collection)              |
+| Eigene Prompts erstellen            | [Benutzerdefinierte Prompts](./user-prompts)   |
+| Registrieren oder Anmelden          | [Kontoverwaltung](./account)                   |
+| Community-Beiträge entdecken        | [Community-Prompts](./community)               |
+| Offline-/Intranet-Bereitstellung    | [Offline-Version](../deploy/offline)                   |
 
-## 🔬 Kopieren der Anfrage
+## Gängige KI-Modelle
 
-Durch Tag-Filterung und Stichwortsuche ermöglicht es das Klicken auf die Schaltfläche "Kopieren" in der oberen rechten Ecke der Karte, die vorgeschlagenen Wörter zu erhalten. Nach dem Einfügen in ChatGPT können Sie sich auf die Vorschläge beziehen und den Text entsprechend Ihren spezifischen Bedürfnissen anpassen, um eine Antwort im gewünschten Bereich zu erhalten. Wenn die Erklärung in Ihrer Muttersprache in den vorgeschlagenen Wörtern nicht klar ist, können Sie auf den Link in der unteren rechten Ecke der vorgeschlagenen Wörter klicken, um die Quellwebseite anzuzeigen.
+### Internationale Modelle
 
-![](https://img.newzone.top/2023-06-11-17-14-07.png?imageMogr2/format/webp)
+- [ChatGPT](https://chatgpt.com) — OpenAI
+- [Gemini](https://gemini.google.com/app) — Google
+- [Claude](https://claude.ai/chats) — Anthropic
+- [Grok](https://grok.com/) — xAI
+- [Le Chat](https://chat.mistral.ai/) — Mistral AI (Frankreich, EU-konform)
 
-## 💬 Sprachumschaltung
+### Modelle aus China
 
-Standardmäßig werden die vorgeschlagenen Wörter in Englisch angezeigt. Wenn Sie eine nicht-englische Seite verwenden und die Interpretationen in Ihrer Muttersprache anzeigen möchten, klicken Sie bitte auf den Inhalt der vorgeschlagenen Wörter, um auf eine nicht-englische Sprache umzuschalten, und klicken Sie erneut, um zu Englisch zurückzukehren. Bitte beachten Sie, dass die Sprachumschaltung nur funktioniert, wenn Sie auf den Text in der Anfrage klicken, und das Klicken im leeren Bereich unwirksam ist.
+In der DACH-Region weniger verbreitet, aber teils stark in Mathematik, Programmierung und mehrsprachigen Aufgaben. Bitte prüfen Sie vor der Nutzung die Datenschutzbestimmungen — insbesondere bei sensiblen oder personenbezogenen Daten (DSGVO).
 
-![Umschalten zwischen Chinesisch und Englisch](http://img.newzone.top/chatgptshortcut_encn.gif)
+- [DeepSeek](https://chat.deepseek.com)
+- [Tongyi Qianwen](https://www.qianwen.com/)
+- [Ernie Bot](https://yiyan.baidu.com)
+- [Doubao](https://www.doubao.com/chat/)
+- [Kimi](https://www.kimi.com/)
+- [ChatGLM](https://chatglm.cn/detail)
+- [iFLYTEK Spark](https://xinghuo.xfyun.cn/)
+- [Tencent Yuanbao](https://yuanbao.tencent.com/chat)
 
-Wenn Sie möchten, dass die vorgeschlagenen Wörter standardmäßig in Ihrer Muttersprache angezeigt werden, können Sie auf die Schaltfläche "Sprache der Anfrage umschalten" in der oberen rechten Ecke des Tag-Bereichs klicken. Bitte beachten Sie jedoch, dass auch bei der Umstellung auf Übersetzungen in der Muttersprache die Kopierschaltfläche nur die englischen vorgeschlagenen Wörter kopiert.
+### API-Plattformen
 
-## 🔥 Beliebte Sortierung
+- [OpenRouter](https://openrouter.ai/chat)
+- [SiliconFlow](https://cloud.siliconflow.cn/playground/chat)
+- [Groq](https://groq.com/)
 
-Die Seite zeigt jetzt die Häufigkeit der Verwendung der Anfragen an, und Anfragen mit höherer Nutzungshäufigkeit werden als "Favorit" markiert. Darüber hinaus basiert die Sortierung der Anfrage-Tags hauptsächlich auf dem Heat-Wert. Der Heat-Wert wird regelmäßig aktualisiert.
+## Verwandte Dokumentation
+
+- [Schnittstellen-Leitfaden](./interface) - Such- und Filterfunktionen
+- [Meine Sammlung](./my-collection) - Sammlung, Tags und Sortierung
+- [Kontoverwaltung](./account) - Anmeldung und Registrierung

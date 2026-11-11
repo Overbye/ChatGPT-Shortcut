@@ -1,35 +1,73 @@
+---
+sidebar_label: 시작하기
+title: AI Short 퀵스타트 - 30초 만에 ChatGPT 활용
+description: 30초 만에 AI 활용 효율 UP! ChatGPT, Gemini 등에 최적화된 프롬프트를 복사해 대화 품질을 즉시 향상시키세요.
+---
+
 # 시작하기
 
-AiShort 은 기본적으로 모든 제안 단어를 표시합니다. 페이지는 세 가지 섹션으로 나뉘어 있습니다: 태그 영역, 검색 영역, 그리고 제안 단어 표시 영역입니다.
+좋은 프롬프트는 AI 출력의 품질을 결정합니다. AiShort는 엄선된 다수의 프롬프트를 수록하고 있으며 복사하여 붙여넣기만 하면 바로 사용할 수 있습니다.
 
-![](https://img.newzone.top/2023-06-05-20-44-19.png?imageMogr2/format/webp)
+> 📋 **시작 전에 필요한 것**: 브라우저 하나와 접속 가능한 AI 도구 하나 — ChatGPT·Gemini·Claude 같은 채팅 페이지, Cursor·Copilot 같은 코딩 도구, API 호출, AI 에이전트 등 무엇이든 가능합니다. AiShort 웹 버전은 등록이 필요하지 않습니다.
 
-## 🏷️ 태그 필터링
+## 기본 사용
 
-태그 영역은 제안 단어의 도메인과 기능을 기준으로 나뉘어져 다양한 시나리오와 요구에 따라 선택할 수 있도록 합니다. 태그 영역 우측 상단의 "태그 필터링 규칙 전환" 버튼과 함께 사용하여 다중 태그 필터링을 수행할 수 있습니다. 기본 상태는 OR 이며, 선택한 태그 아래의 모든 제안 단어를 선택합니다. AND 로 전환하면 여러 개의 선택된 태그가 있는 제안 단어를 필터링합니다.
+1. 홈페이지에서 관심 있는 프롬프트를 검색하거나 탐색합니다
+2. 적합한 프롬프트를 찾으면 "복사" 버튼을 클릭합니다 (또는 먼저 카드를 클릭하여 전체 내용 확인)
+3. 어떤 AI 도구에든 붙여넣습니다 — 채팅 페이지(ChatGPT, Gemini, Claude 등), 코딩 도구(Cursor, Copilot 등), API 호출, AI 에이전트 등
+4. 프롬프트의 **자리표시자**(예: `[내용]`, `[주제]`)에 구체적인 요구사항을 채워 AI에 전송합니다
 
-![](https://img.newzone.top/2023-06-05-20-50-19.png?imageMogr2/format/webp)
+![](/img/docs/how-to-use-aishort.webp)
 
-## 🔍 키워드 검색
+> 💡 **팁**: 대부분의 프롬프트는 대괄호 `[...]`로 채워야 할 부분을 표시합니다. 대괄호 안의 자리표시자 텍스트를 구체적인 내용으로 바꾸기만 하면 됩니다.
 
-키워드 검색 범위는 제안 단어의 제목, 요약, 내용, 그리고 제안 단어의 원어로 된 번역을 포함합니다. 키워드를 입력하면 제안 단어 표시 영역에 즉시 필터링된 내용이 표시됩니다. 태그가 선택된 경우, 키워드 검색은 선택된 태그의 범위로 제한됩니다. PC 버전에서 검색 상자의 내용이 변경되면 800 밀리초 후에 새로운 검색 결과가 표시됩니다. 모바일 장치에서는 즉시 업데이트됩니다.
+## 빠른 액세스
 
-![](https://img.newzone.top/2023-06-05-20-58-07.png?imageMogr2/format/webp)
+| 나는...                  | 어디로 가야 하나요                  |
+| ------------------------ | ----------------------------------- |
+| 프롬프트 복사 및 사용    | [홈](/)에서 직접 검색 또는 탐색     |
+| AI 대화 페이지에서 호출  | [브라우저 확장 프로그램](../extension/) |
+| 프롬프트 수집 및 관리    | [마이 컬렉션](./my-collection)      |
+| 나만의 프롬프트 생성     | [커스텀 프롬프트](./user-prompts)   |
+| 등록 또는 로그인         | [계정 관리](./account)              |
+| 커뮤니티 공유 발견       | [커뮤니티 프롬프트](./community)    |
+| 오프라인/사내망 배포     | [오프라인 배포 버전](../deploy/offline)     |
 
-## 🔬 힌트 복사
+## 일반적인 AI 모델
 
-태그 필터링과 키워드 검색을 통해 카드의 우측 상단에 있는 "복사" 버튼을 클릭하면 제안 단어를 얻을 수 있습니다. 이를 ChatGPT 에 붙여넣은 후 제안을 참고하고 특정한 요구에 따라 텍스트를 조정하여 원하는 도메인의 답변을 얻을 수 있습니다. 제안 단어의 원어 설명이 명확하지 않은 경우, 제안 단어의 우측 하단에 있는 링크를 클릭하여 소스 웹페이지를 확인할 수 있습니다.
+### 글로벌 모델
 
-![](https://img.newzone.top/2023-06-11-17-14-07.png?imageMogr2/format/webp)
+- [ChatGPT](https://chatgpt.com)
+- [Gemini](https://gemini.google.com/app)
+- [Claude](https://claude.ai/chats)
+- [Grok](https://grok.com/)
 
-## 💬 언어 전환
+### 국내 모델 (한국어 최적화)
 
-기본적으로 제안 단어는 영어로 표시됩니다. 비영어권 페이지를 사용하고 자국어로 된 해석을 보고 싶다면, 제안 단어 내용을 클릭하여 비영어로 전환하고 다시 클릭하여 영어로 전환할 수 있습니다. 언어 전환은 프롬프트의 텍스트를 클릭할 때만 작동하며, 공백 영역을 클릭하는 것은 효과가 없습니다.
+- [HyperCLOVA X (네이버)](https://clova-x.naver.com/) — 네이버의 한국어 특화 LLM
+- [Solar (업스테이지)](https://www.upstage.ai/solar-llm) — 업스테이지가 개발한 한국어·영어 듀얼 모델
+- [Gauss (삼성)](https://www.samsung.com/sec/) — 삼성전자의 자체 개발 생성형 AI (Galaxy AI 등에 탑재)
+- [A.X (SKT)](https://www.sktelecom.com/) — SK텔레콤의 한국어 특화 모델
 
-![중국어와 영어 사이 전환](http://img.newzone.top/chatgptshortcut_encn.gif)
+### 중국 본토 모델
 
-제안 단어가 기본적으로 자국어로 표시되길 원한다면, 태그 영역 우측 상단의 "프롬프트 언어 전환" 버튼을 클릭할 수 있습니다. 그러나, 영어로 전환될 때에도 복사 버튼은 여전히 영어 제안 단어를 복사합니다.
+- [DeepSeek](https://chat.deepseek.com)
+- [Tongyi Qianwen](https://www.qianwen.com/)
+- [Ernie Bot](https://yiyan.baidu.com)
+- [Doubao](https://www.doubao.com/chat/)
+- [Kimi](https://www.kimi.com/)
+- [ChatGLM](https://chatglm.cn/detail)
+- [iFLYTEK Spark](https://xinghuo.xfyun.cn/)
+- [Tencent Yuanbao](https://yuanbao.tencent.com/chat)
 
-## 🔥 인기 정렬
+### API 플랫폼
 
-현재 페이지에서는 프롬프트 사용 빈도를 표시하며, 사용 빈도가 높은 프롬프트는 "즐겨찾기"로 표시됩니다. 또한, 프롬프트 태그의 정렬은 주로 인기도에 따라 이루어집니다. 인기도는 주기적으로 업데이트됩니다.
+- [OpenRouter](https://openrouter.ai/chat)
+- [SiliconFlow](https://cloud.siliconflow.cn/playground/chat)
+- [Groq](https://groq.com/)
+
+## 관련 문서
+
+- [인터페이스 가이드](./interface) - 검색 및 필터링 기능
+- [마이 컬렉션](./my-collection) - 컬렉션, 태그 및 정렬
+- [계정 관리](./account) - 로그인 및 등록

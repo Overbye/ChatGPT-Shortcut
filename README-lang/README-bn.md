@@ -1,101 +1,181 @@
 <h1 align="center">
-⚡️AI Short
+    <a href="https://www.aishort.top/">
+        <img src="../static/img/logo.png" alt="AiShort Logo" width="120" height="120" />
+    </a>
+    <br>
+    AiShort (ChatGPT Shortcut) - ব্যবহার করা সহজ এআই প্রম্পট ম্যানেজমেন্ট টুল
 </h1>
+
 <p align="center">
-    <a href="/README-en.md">English</a> | <a href="/README.md">中文</a> |
-<a href="./README-es.md">Español</a> |
+    <em>৫০০০+ ব্যবহারের জন্য প্রস্তুত AI প্রম্পট — ChatGPT, Cursor এবং যেকোনো AI টুলকে সাধারণ থেকে বিশেষজ্ঞ-পর্যায়ে রূপান্তর করুন।</em>
+</p>
+
+<p align="center">
+    <a href="https://www.aishort.top/bn/"><b>▶ অনলাইনে ব্যবহার করুন</b></a> ·
+    <a href="https://www.aishort.top/bn/docs/extension/">⬇ ব্রাউজার এক্সটেনশন</a> ·
+    <a href="https://www.aishort.top/bn/docs/guides/getting-started">📖 ডকুমেন্টেশন</a>
+</p>
+
+<p align="center">
+    <a href="https://github.com/rockbenben/ChatGPT-Shortcut/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/rockbenben/ChatGPT-Shortcut?color=blue&label=License" alt="License" />
+    </a>
+    <a href="https://github.com/rockbenben/ChatGPT-Shortcut/stargazers">
+        <img src="https://img.shields.io/github/stars/rockbenben/ChatGPT-Shortcut?style=social" alt="GitHub Stars" />
+    </a>
+    <a href="https://github.com/rockbenben/ChatGPT-Shortcut/releases">
+        <img src="https://img.shields.io/github/v/release/rockbenben/ChatGPT-Shortcut?color=green" alt="Version" />
+    </a>
+    <a href="https://discord.gg/PZTQfJ4GjX">
+        <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=flat" alt="Discord" />
+    </a>
+</p>
+
+<p align="center">
+    <a href="../README.md">English</a> | <a href="../README-zh.md">简体中文</a> | <a href="./README-zh-hant.md">繁體中文</a> |
 <a href="./README-ja.md">日本語</a> |
 <a href="./README-ko.md">한국어</a> |
 <a href="./README-fr.md">Français</a> |
 <a href="./README-de.md">Deutsch</a> |
+<a href="./README-es.md">Español</a> |
 <a href="./README-it.md">Italiano</a> |
 <a href="./README-ru.md">Русский</a> |
 <a href="./README-pt.md">Português</a> |
+<a href="./README-ind.md">Indonesia</a> |
 <a href="./README-ar.md">العربية</a> |
+<a href="./README-tr.md">Türkçe</a> |
+<a href="./README-vi.md">Tiếng Việt</a> |
+<a href="./README-th.md">ภาษาไทย</a> |
 <a href="./README-hi.md">हिन्दी</a> |
 বাংলা
 </p>
-<p align="center">
-    <em>ChatGPT Shortcut, Maximize your Efficiency and Productivity</em>
-</p>
 
-## AiShort ব্যবহারের কারণ?
+## ⚡ দ্রুত শুরু
 
-AiShort একটি সংক্ষিপ্ত এবং সহজব্যবহারযোগ্য AI নির্দেশনার তালিকা প্রদান করে। প্রম্পটগুলির বোধ না থাকলেও, আপনি সহজেই ফিল্টারিং এবং অনুসন্ধানের মাধ্যমে বিভিন্ন পরিস্থিতিগুলির জন্য উপযুক্ত প্রম্পটগুলি খুঁজে পেতে পারেন, যা আপনার কাজের ক্ষমতার উন্নয়ন করে।
+1. [aishort.top](https://www.aishort.top/bn/) এ যান
+2. আপনার প্রয়োজনীয় প্রম্পট খুঁজুন বা ব্রাউজ করুন
+3. "কপি" ক্লিক করুন এবং যেকোনো AI টুলে পেস্ট করুন — ChatGPT-এর মতো চ্যাট পেজ, Cursor-এর মতো কোডিং টুল, আপনার নিজের API কল ইত্যাদি
 
-🚀 **এক-ক্লিক প্রম্পটগুলি**: একটি ক্লিকের মাধ্যমে, আপনি বিশেষজ্ঞদের যত্নবরে নির্বাচিত বিভিন্ন প্রম্পট পেতে পারেন। তাদের এআই ভাষার মডেলগুলিতে, যেমন ChatGPT, পাঠান এবং আপনি প্রত্যাশিত আউটপুট পেতে পারেন।
+![AiShort Interface](../static/img/docs/interface-home.png)
 
-💻 **প্রডাক্টিভিটি বাড়ানো**: অপটিমাইজড প্রম্পটগুলি ব্যবহার করে, আপনি আরও স্পষ্ট এবং ব্যাবহারিক প্রতিক্রিয়া পেতে পারেন, যা আপনার কাজের দক্ষতা সম্পন্ন করে।
+এটাই সব! আরও বৈশিষ্ট্যের জন্য [ব্যবহারকারী গাইড](https://www.aishort.top/bn/docs/guides/getting-started) দেখুন।
 
-🌍 **নন-ইংরেজী ভাষাগুলির জন্য অপটিমাইজেশন**: আমরা ইংরেজী প্রম্পটগুলির জন্য 12 টি প্রধান বিশ্বব্যাপী ভাষার অনুবাদ সরবরাহ করি, এবং আপনার মাতৃভাষায় ডিফল্ট উত্তরগুলি সমর্থন করি, যা নন-ইংরেজী কথোপকারীদের বোঝার এবং ব্যবহার করার জন্য সুবিধাজনক।
+## 💎 কেন AiShort?
 
-💾 **প্রম্পট সংরক্ষণ করুন**: সহজে আপনার প্রিয় প্রম্পটগুলি সংগ্রহ করুন, সম্পাদনা করুন এবং ভবিষ্যতে ব্যবহারের জন্য পরিচালনা করুন।
+**AI ব্যবহার করা আর AI ভালোভাবে ব্যবহার করার মধ্যে পার্থক্য হলো একটি ভালো প্রম্পট।**
 
-🌐 **প্রম্পটগুলি ভাগ করুন**: আপনার প্রিয় প্রম্পটগুলি ভাগ করুন, অন্যদের সাথে সহযোগিতা করুন এবং আরও অনেক ধারণা অনুপ্রেরণ করুন।
+একই প্রশ্ন, ভিন্ন প্রম্পট — এবং AI-এর আউটপুট সাধারণ থেকে সত্যিই উপকারী হয়ে ওঠে। বিশেষজ্ঞ-মানের প্রম্পট নিজে লিখতে বছরের পর বছর অভিজ্ঞতা লাগে। AiShort আপনাকে কমিউনিটি-পরীক্ষিত একটি কিউরেটেড লাইব্রেরি দেয় — লেখালেখি, কোডিং, অফিস, শেখা, ডিজাইন, মার্কেটিং এবং আরও অনেক ক্ষেত্রে। কপি → পেস্ট → বিশেষজ্ঞ-মানের আউটপুট, সঙ্গে সঙ্গে।
 
-🗳️ **সম্প্রদায় ভোটিং সিস্টেম**: প্রোডাক্ট হান্ট বা রেডিটের মতো, প্ল্যাটফর্মটি সম্প্রদায়-প্রবর্তিত। সেরা প্রম্পটগুলি হোমপেজে প্রেরণ করা হবে।
+কোনো সাইন-আপ নেই। কোনো পেওয়াল নেই। কোনো ইনস্টল নেই। খুলুন এবং ব্যবহার করুন।
 
-📦 **ব্যবহার প্রস্তুত**: শুধু https://www.aishort.top/bn/ দেখুন এবং ব্যবহার করা শুরু করুন।
+### মূল বৈশিষ্ট্য
 
-AiShort প্রম্পটের উত্স ইন্টারনেট নির্বাচন, সম্প্রদায় ভাগ, এবং [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) অন্তর্ভুক্ত করে। আমরা নিয়মিতভাবে নতুন প্রম্পট এবং অনুপ্রেরণ সরবরাহ করার জন্য আপডেট করব। AiShort ব্যবহার করার উপায় বোঝার জন্য, দয়া করে [ব্যবহারকারী ম্যানুয়াল](https://www.aishort.top/bn/docs/guides/getting-started) দেখুন।
+🚀 **এক ক্লিকে কপি** — কার্ডে একবার ট্যাপ করলেই প্রম্পট ক্লিপবোর্ডে চলে আসে, যেকোনো চ্যাট বক্সে পেস্ট করে ব্যবহার করুন।
 
-আইডিয়া এবং প্রতিক্রিয়া আদানপ্রদানের জন্য আমাদের ডিসকোর্ড সম্প্রদায়ে যোগ দিতে স্বাগত জানাচ্ছি।
+🔍 **ট্যাগ + কীওয়ার্ড সার্চ** — ২৬টি পরিস্থিতির ট্যাগ দিয়ে ফিল্টার করুন, বা `Ctrl / ⌘ + K` চেপে খুঁজুন।
 
+🌍 **১৮টি ভাষা** — সম্পূর্ণ UI এবং প্রম্পট অনুবাদ, মাতৃভাষায় উত্তর।
+
+### উন্নত বৈশিষ্ট্য (লগইনের পরে)
+
+📂 **আমার সংগ্রহ** — ড্র্যাগ-অ্যান্ড-ড্রপ সাজানো, কাস্টম ট্যাগ শ্রেণীবিন্যাস।
+
+✏️ **কাস্টম প্রম্পট** — নিজের প্রম্পট তৈরি, সম্পাদনা এবং পরিচালনা।
+
+🗳️ **কমিউনিটি** — কমিউনিটিতে প্রম্পট শেয়ার করুন, ভোট দিন এবং মন্তব্যে আলোচনা করুন।
+
+📤 **ডেটা এক্সপোর্ট** — সব প্রম্পট JSON হিসেবে এক-ক্লিকে এক্সপোর্ট।
+
+🔐 **একাধিক লগইন পদ্ধতি** — পাসওয়ার্ড, Google, বা পাসওয়ার্ডবিহীন ইমেল লিংক।
+
+🏆 **স্তর** — কমিউনিটিতে প্রম্পট শেয়ার করে স্তর অর্জন করুন (L0–L9)।
+
+## 📸 স্ক্রিনশট
+
+<table>
+  <tr>
+    <td width="50%"><img src="../static/img/docs/my-collection-view.webp" alt="আমার সংগ্রহ" /></td>
+    <td width="50%"><img src="../static/img/docs/extension-sidebar.webp" alt="ব্রাউজার এক্সটেনশন" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>আমার সংগ্রহ</strong> — ড্র্যাগ, ট্যাগ, সংগঠিত</td>
+    <td align="center"><strong>ব্রাউজার এক্সটেনশন</strong> — ChatGPT, Gemini, Claude-এ সাইডবার…</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="../static/img/docs/prompt-card.webp" alt="প্রম্পট কার্ড" /></td>
+    <td width="50%"><img src="../static/img/docs/community-page.png" alt="কমিউনিটি" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>প্রম্পট কার্ড</strong> — প্রিভিউ ও এক-ক্লিক কপি</td>
+    <td align="center"><strong>কমিউনিটি</strong> — আবিষ্কার ও ভোট</td>
+  </tr>
+</table>
+
+## 📚 ডকুমেন্টেশন
+
+[aishort.top](https://www.aishort.top/bn/docs/)-এ সম্পূর্ণ গাইড:
+
+- [শুরু করুন](https://www.aishort.top/bn/docs/guides/getting-started) — ৩০ সেকেন্ডে মৌলিক ব্যবহার
+- [ইন্টারফেস গাইড](https://www.aishort.top/bn/docs/guides/interface) — ট্যাগ ফিল্টার ও স্মার্ট সার্চ
+- [আমার সংগ্রহ](https://www.aishort.top/bn/docs/guides/my-collection) — সংগ্রহ করুন, ট্যাগ করুন, ড্র্যাগ করে সাজান
+- [কাস্টম প্রম্পট](https://www.aishort.top/bn/docs/guides/user-prompts) — তৈরি করুন, সম্পাদনা করুন, আমদানি/রপ্তানি করুন
+- [কমিউনিটি প্রম্পট](https://www.aishort.top/bn/docs/guides/community) — আবিষ্কার করুন, ভোট দিন, আলোচনা করুন
+- [অ্যাকাউন্ট](https://www.aishort.top/bn/docs/guides/account) — লগইন পদ্ধতি ও ডেটা ম্যানেজমেন্ট
+- [ডেপ্লয়মেন্ট](https://www.aishort.top/bn/docs/deploy) — নিজের ইনস্ট্যান্স সেলফ-হোস্ট করুন
+
+## 🧩 ব্রাউজার এক্সটেনশন
+
+যেকোনো সময় AiShort প্রম্পট অ্যাক্সেস করুন আমাদের ব্রাউজার এক্সটেনশন দিয়ে। Chrome, Edge এবং Firefox সমর্থিত — `Alt + Shift + S` দিয়ে সাইডবার খুলুন।
+
+- **Chrome**: [Chrome Web Store](https://chromewebstore.google.com/detail/ai-short-ai-prompt-shortc/blcgeoojgdpodnmnhfpohphdhfncblnj)
+- **Edge**: [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/ai-short-ai-prompt-shor/hnggpalhfjmdhhmgfjpmhlfilnbmjoin)
+- **Firefox**: [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/aishort/)
+- **GitHub**: [Releases](https://github.com/rockbenben/ChatGPT-Shortcut/releases/latest)
+
+অথবা যেকোনো ওয়েবসাইটে AiShort সাইডবার আনতে [ChatGPT Shortcut Anywhere](https://greasyfork.org/scripts/482907-chatgpt-shortcut-anywhere) Tampermonkey স্ক্রিপ্ট ব্যবহার করুন।
+
+## 🚀 ডেপ্লয়মেন্ট
+
+Vercel, Cloudflare Pages, Docker বা স্থানীয়ভাবে আপনার নিজের ইনস্ট্যান্স ডেপ্লয় করুন। বিস্তারিত জানতে [ডেপ্লয়মেন্ট গাইড](https://www.aishort.top/bn/docs/deploy) দেখুন।
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
+
+> **অফলাইন / ইন্ট্রানেট?** এয়ার-গ্যাপড এন্টারপ্রাইজ বা সরকারি নেটওয়ার্কের জন্য একটি [অফলাইন সংস্করণ](https://www.aishort.top/bn/docs/deploy/offline) রয়েছে — কোনো ব্যাকএন্ড বা অ্যাকাউন্টের প্রয়োজন নেই, ব্রাউজারে স্থানীয়ভাবে ডেটা সংরক্ষিত হয়, একই ব্রাউজ/সার্চ/সংগ্রহ/কাস্টম-প্রম্পট বৈশিষ্ট্য সহ।
+
+> **টিপ**: Vercel-এর এক-ক্লিক ডেপ্লয় একটি নতুন প্রজেক্ট তৈরি করে (ফর্ক নয়), তাই আপস্ট্রিম আপডেট চেক কাজ করবে না। অটো-সিঙ্ক পেতে প্রথমে রেপো ফর্ক করুন, তারপর Vercel-এ ফর্কটি ইম্পোর্ট করুন — সম্পূর্ণ নির্দেশনা [ডেপ্লয় গাইডে](https://www.aishort.top/bn/docs/deploy/sync-updates) রয়েছে।
+
+## 🤝 অবদান রাখুন
+
+সব ধরনের অবদান স্বাগত:
+
+- **প্রম্পট প্রস্তাব করুন** বা **বাগ রিপোর্ট করুন** → [GitHub Issue](https://github.com/rockbenben/ChatGPT-Shortcut/issues/new) খুলুন
+- **PR জমা দিন** → রেপো ফর্ক করুন, একটি ব্রাঞ্চ তৈরি করুন, পুল রিকোয়েস্ট পাঠান
+- **অনুবাদ যোগ করুন** বা **ডকুমেন্টেশন উন্নত করুন** → `i18n/` এবং `docs/` ডিরেক্টরি দেখুন
+- **স্টার ⭐ দিন এবং শেয়ার করুন** যাতে অন্যরা দরকারী প্রম্পট খুঁজে পায়
+
+লোকাল ডেভেলপমেন্ট সেটআপের জন্য [ডেপ্লয়মেন্ট গাইড](https://www.aishort.top/bn/docs/deploy) দেখুন।
+
+## 💬 কমিউনিটি
+
+আলোচনা এবং ফিডব্যাকের জন্য যোগ দিন:
+
+<a href="https://t.me/aishort_top">
+    <img src="https://img.shields.io/badge/Telegram-Group-blue?logo=telegram&style=for-the-badge" alt="Telegram" />
+</a>
 <a href="https://discord.gg/PZTQfJ4GjX">
-   <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="Discord এ চ্যাট করুন" />
+    <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="Discord" />
 </a>
 
-## ব্রাউজার এক্সটেনশন
+## 🌟 স্টার ইতিহাস
 
-AiShort (ChatGPT Shortcut) ব্রাউজার এক্সটেনশন Chrome এবং Edge সমর্থন করে এবং ওয়েব সংস্করণের সাথে সামঞ্জস্যপূর্ণ কার্যকারিতা নিয়ে নিয়মিতভাবে আপডেট করা হয়। এক্সটেনশনটি স্বয়ংক্রিয়ভাবে চালু হয় যখন ChatGPT পৃষ্ঠা লোড হয়, অথবা আপনি `Alt+Shift+S` হটকী চেপে এক্সটেনশন উইন্ডো সক্রিয় করতে পারেন।
+<a href="https://star-history.dera.page/#rockbenben/ChatGPT-Shortcut">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=rockbenben/ChatGPT-Shortcut&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=rockbenben/ChatGPT-Shortcut" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=rockbenben/ChatGPT-Shortcut" />
+ </picture>
+</a>
 
-<a href="https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj">
-  <img src="https://img.newzone.top/2023-06-05-12-28-49.png?imageMogr2/format/webp"  alt="Chrome" valign="middle" /></a>
+---
 
-<a href="https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin">
-  <img src="https://img.newzone.top/2023-06-05-12-26-20.png?imageMogr2/format/webp" alt="Edge" valign="middle" /></a>
-
-## ডিপ্লয়
-
-### Vercel সহ ডিপ্লয় করুন
-
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
-
-### ইনস্টলেশন
-
-```shell
-# ইনস্টলেশন
-yarn
-
-# স্থানীয় উন্নয়ন
-yarn start
-
-# বিল্ড: এই কমান্ডটি স্ট্যাটিক কনটেন্ট উত্পাদন করে `build` নির্দেশিকায়
-yarn build
-```
-
-## সমন্বিত আপডেট
-
-একক ক্লিকে নিজের প্রকল্পটি Vercel এ ডিপ্লয় করলে, আপনি অবিরত সংশোধনীর সূচনা পেতে পারেন। এটি তথ্য যায় যে Vercel ডিফল্টভাবে আপনার জন্য একটি নতুন প্রকল্প তৈরি করে, বরং বর্তমান প্রকল্প বন্ধ করে দেয়, যার ফলে প্রকৃত আপডেট সনাক্তি হয়নি। সঠিক আপডেট সনাক্তি করার জন্য নিম্নলিখিত পদক্ষেপগুলি অনুসরণ করা যায়:
-
-1. আগের সংরক্ষিত সংস্করণ সরানো হয়েছে।
-2. পৃষ্ঠার উপরে স্থিত ডান কোণে থাকা "fork" বোতামটি ব্যবহার করে বর্তমান প্রকল্পটি ফর্ক করুন।
-3. [Vercel New Project page](https://vercel.com/new) -এ গিয়ে, Import Git Repository বিভাগ থেকে শেষতম ফর্ক করা প্রকল্পটি নির্বাচন করে উন্নয়নের সাথে অগ্রসর হুঁশিয়ার।
-
-### স্বয়ংক্রিয় আপডেট
-
-> উপস্থিত মডিউল সংযোগের প্রয়োজনে, আপস্ট্রিম সিঙ্ক চালানোর ব্যবস্থাপনা সংয়ম পার্ফর্ম করুন।
-
-আপনি যখন প্রকল্পটি ফর্ক করেন, GitHub সীমাবদ্ধতার জন্য নির্দিষ্ট পদক্ষেপ গ্রহণ করা
-
- প্রয়োজন, যা হল আপনার ফর্ককৃত প্রকল্পে কর্মপরিকল্পনা সক্রিয় করতে এবং উপস্থিত সিঙ্ক অ্যাকশন সক্রিয় করতে। সক্রিয় করলে, আপডেট দৈনিক ভিত্তিতে স্বয়ংক্রিয়ভাবে পরিচালিত হবে।
-
-![স্বয়ংক্রিয় আপডেট](https://img.newzone.top/2023-05-19-11-57-59.png?imageMogr2/format/webp)
-
-![স্বয়ংক্রিয় আপডেট সক্রিয় করা](https://img.newzone.top/2023-05-19-11-59-26.png?imageMogr2/format/webp)
-
-### ম্যানুয়াল আপডেট
-
-যদি আপনি সরাসরি আপডেট করতে চান, আপনি [GitHub এর নথিপত্র](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) দেখতে পারেন যেভাবে আপনার ফর্ককৃত প্রকল্পটি সান্ক্রান্তিক কোডের সাথে সিঙ্ক্রোনাইজ করতে পারেন।
-
-নতুন বৈশিষ্ট্য আপডেট সম্পর্কে সময়ের সাথে সার্টিফিকেট বার্তা পেতে এই প্রকল্পটিকে তার উপরিভাগে স্টার / ফলো দিয়ে সমর্থন করার জন্য আহ্বান জানানোর মাধ্যমে এই প্রকল্পকে সমর্থন করুন, অথবা লেখককে ফলো করুন, যাতে নতুন বৈশিষ্ট্য আপডেট সম্পর্কে সময়ের সাথে বিজ্ঞপ্তি পেতে থাকেন।
+⭐ নতুন বৈশিষ্ট্য সম্পর্কে জানতে এই প্রজেক্টটি স্টার করুন!

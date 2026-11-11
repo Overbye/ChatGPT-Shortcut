@@ -1,35 +1,68 @@
-# Comenzando
+---
+sidebar_label: Inicio Rápido
+title: AI Short Inicio Rápido - ChatGPT en 30 Segundos
+description: Comienza en 30 segundos. Copia prompts para ChatGPT y Gemini y mejora instantáneamente la calidad de tus conversaciones.
+---
 
-AiShort se muestra por defecto con todas las palabras sugeridas. La página se divide en tres secciones: el área de etiquetas, el área de búsqueda y el área de visualización de palabras sugeridas.
+# Inicio Rápido
 
-![](https://img.newzone.top/2023-06-05-20-44-19.png?imageMogr2/format/webp)
+Un buen prompt determina la calidad de la respuesta de la IA. AiShort recopila gran cantidad de prompts curados, listos para copiar y pegar.
 
-## 🏷︎ Filtrado por etiquetas
+> 📋 **Lo que necesitas antes de empezar**: un navegador + cualquier herramienta de IA accesible — chats como ChatGPT/Gemini/Claude, editores de código como Cursor, o llamadas directas a la API. La versión web de AiShort no requiere registro.
 
-El área de etiquetas se divide según el dominio y la funcionalidad de las palabras sugeridas, permitiendo la selección en base a diferentes escenarios y necesidades. Se puede utilizar junto con el botón "Alternar regla de filtrado por etiquetas" en la esquina superior derecha del área de etiquetas para realizar un filtrado de múltiples etiquetas. El estado predeterminado es OR, que selecciona todas las palabras sugeridas bajo la etiqueta elegida. Cambiar a AND filtrará las palabras sugeridas que tienen múltiples etiquetas seleccionadas.
+## Uso Básico
 
-![](https://img.newzone.top/2023-06-05-20-50-19.png?imageMogr2/format/webp)
+1. Busca o navega por los prompts que te interesen en la página de inicio
+2. Cuando encuentres uno adecuado, haz clic en "Copiar" (o abre la tarjeta para ver el contenido completo)
+3. Pégalo en cualquier herramienta de IA — páginas de chat, editores de código (Cursor, etc.), llamadas a la API o agentes
+4. Sustituye los **marcadores de posición** del prompt (como `[contenido]`, `[tema]`) con tu necesidad concreta y envíalo a la IA
 
-## 🔍 Búsqueda por palabras clave
+![](/img/docs/how-to-use-aishort.webp)
 
-El ámbito de búsqueda por palabras clave incluye los títulos, resúmenes, contenido y traducciones en tu idioma nativo de las palabras sugeridas. Después de ingresar una palabra clave, el área de visualización de palabras sugeridas mostrará inmediatamente el contenido filtrado. Si se han seleccionado etiquetas, la búsqueda por palabras clave se limitará al ámbito de las etiquetas seleccionadas. En el lado de la PC, después de que el contenido en el cuadro de búsqueda cambie, los nuevos resultados de búsqueda se mostrarán después de 800 milisegundos. En dispositivos móviles, se actualiza al instante.
+> 💡 **Consejo**: La mayoría de prompts usan corchetes `[...]` para señalar lo que debes completar — solo tienes que reemplazar el texto entre corchetes con tu contenido específico.
 
-![](https://img.newzone.top/2023-06-05-20-58-07.png?imageMogr2/format/webp)
+## Acceso Rápido
 
-## 🔬 Copia de la indicación
+| Quiero...                          | Dónde ir                                     |
+| ---------------------------------- | -------------------------------------------- |
+| Copiar y usar prompts              | Buscar o navegar directamente en [Inicio](/) |
+| Acceder desde cualquier página de IA | [Extensión de navegador](../extension/)    |
+| Coleccionar y gestionar prompts    | [Mi Colección](./my-collection)              |
+| Crear mis propios prompts          | [Prompts Personalizados](./user-prompts)     |
+| Registrarme o Iniciar sesión       | [Gestión de Cuenta](./account)               |
+| Descubrir compartidos de comunidad | [Prompts de la Comunidad](./community)       |
+| Despliegue offline / intranet      | [Versión Offline](../deploy/offline)                 |
 
-A través del filtrado por etiquetas y la búsqueda por palabras clave, al hacer clic en el botón "Copia" en la esquina superior derecha de la tarjeta, puedes obtener las palabras sugeridas. Después de pegarlas en ChatGPT, puedes consultar las sugerencias y ajustar el texto según tus necesidades específicas para obtener una respuesta en el dominio deseado. Si la explicación en tu idioma nativo en las palabras sugeridas no es clara, puedes hacer clic en el enlace en la esquina inferior derecha de las palabras sugeridas para ver la página web de origen.
+## Modelos de IA Comunes
 
-![](https://img.newzone.top/2023-06-11-17-14-07.png?imageMogr2/format/webp)
+### Modelos internacionales (recomendados para el público hispanohablante)
 
-## 💬 Cambio de idioma
+- [ChatGPT](https://chatgpt.com) — el más extendido en España y Latinoamérica, con buen soporte multilingüe
+- [Gemini](https://gemini.google.com/app) — disponible en la mayoría de países hispanohablantes, integrado con la cuenta de Google
+- [Claude](https://claude.ai/chats) — destaca en redacción larga y razonamiento en español
+- [Grok](https://grok.com/) — accesible desde la suscripción de X
 
-Por defecto, las palabras sugeridas se muestran en inglés. Si estás utilizando una página en otro idioma y deseas ver las interpretaciones en tu idioma nativo, haz clic en el contenido de las palabras sugeridas para cambiar a un idioma distinto al inglés, y haz clic nuevamente para volver al inglés. Ten en cuenta que el cambio de idioma solo funciona al hacer clic en el texto de la indicación, y hacer clic en el área en blanco no tiene efecto.
+### Modelos de China continental
 
-![Cambio entre chino e inglés](http://img.newzone.top/chatgptshortcut_encn.gif)
+Una alternativa útil si quieres comparar resultados o si los modelos anteriores no están disponibles en tu zona. La interfaz suele estar en chino, aunque los modelos responden en español sin problema.
 
-Si deseas que las palabras sugeridas se muestren por defecto en tu idioma nativo, puedes hacer clic en el botón "Cambiar idioma de la indicación" en la esquina superior derecha del área de etiquetas. Sin embargo, ten en cuenta que incluso al cambiar a traducciones en el idioma nativo, el botón de copia solo copiará las palabras sugeridas en inglés.
+- [DeepSeek](https://chat.deepseek.com) — gratuito y con muy buen rendimiento en español
+- [Tongyi Qianwen](https://www.qianwen.com/)
+- [Ernie Bot](https://yiyan.baidu.com)
+- [Doubao](https://www.doubao.com/chat/)
+- [Kimi](https://www.kimi.com/)
+- [ChatGLM](https://chatglm.cn/detail)
+- [iFLYTEK Spark](https://xinghuo.xfyun.cn/)
+- [Tencent Yuanbao](https://yuanbao.tencent.com/chat)
 
-## 🔥 Orden popular
+### Plataformas API
 
-La página ahora muestra la frecuencia de uso de la indicación, y las indicaciones con mayor frecuencia de uso se marcarán como "favoritas". Además, la ordenación de las etiquetas de la indicación se basará principalmente en el valor de popularidad. El valor de popularidad se actualizará periódicamente.
+- [OpenRouter](https://openrouter.ai/chat) — acceso unificado a decenas de modelos con un solo registro
+- [SiliconFlow](https://cloud.siliconflow.cn/playground/chat)
+- [Groq](https://groq.com/) — inferencia ultra rápida, ideal para pruebas iterativas
+
+## Documentación Relacionada
+
+- [Guía de Interfaz](./interface) - Funciones de búsqueda y filtrado
+- [Mi Colección](./my-collection) - Colección, etiquetas y ordenamiento
+- [Gestión de Cuenta](./account) - Inicio de sesión y registro

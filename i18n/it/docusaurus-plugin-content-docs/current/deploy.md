@@ -1,42 +1,30 @@
-# Deploy
+---
+sidebar_label: Distribuzione
+title: Guida alla Distribuzione AI Short - Vercel, Docker e Cloudflare
+description: Distribuisci AI Short facilmente - Supporta Vercel, Docker e Cloudflare. Include guide per configurazione personalizzata e aggiornamenti automatici.
+---
 
-## Deploy con Vercel
+# Distribuzione del Progetto
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
+> **A chi è rivolto**: sviluppatori che vogliono ospitare o personalizzare AiShort. Gli utenti normali possono semplicemente usare [aishort.top](https://www.aishort.top) — non è necessario leggere questa guida.
 
-## Installazione
+## Scegli un Modello di Distribuzione
 
-```shell
-# Installazione
-yarn
+Scegli il modello più adatto alle tue esigenze:
 
-# Sviluppo Locale
-yarn start
+| Modello                          | Backend                                          | Note                                                                                                                                                                                                       |
+| -------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Standard** (predefinito)       | Riutilizza il backend condiviso ufficiale        | Dopo il fork puoi personalizzare il nome del sito, la descrizione, i prompt, ecc. (vedi [Configurazione](./deploy/configuration)); login, preferiti, community e sincronizzazione funzionano subito |
+| **Edizione Offline**             | Nessun backend, dati memorizzati localmente nel browser | Reti aziendali o governative isolate; non è richiesto alcun account                                                                                                                                        |
+| **Backend completamente self-hosted** | Proprio backend indipendente              | Quando hai bisogno di un sistema di account indipendente, piena proprietà dei dati e una community privata                                                                                                  |
 
-# Build: Questo comando genera il contenuto statico nella directory `build`
-yarn build
-```
+I primi due sono trattati in questa guida. Per il terzo, poiché il servizio backend non è open source, [scrivi al developer](mailto:qingwhat@gmail.com) con una breve descrizione del tuo caso d'uso e della scala per ricevere un piano di distribuzione e supporto.
 
-## Aggiornamenti Sincronizzati
+## Documentazione di Distribuzione
 
-Se hai distribuito il tuo progetto su Vercel con un solo clic, potresti incontrare un problema in cui vengono costantemente indicati gli aggiornamenti. Questo problema deriva dal comportamento predefinito di Vercel, che crea un nuovo progetto anziché fare il fork del progetto corrente, impedendo così un corretto rilevamento degli aggiornamenti. Si consiglia di seguire i passaggi successivi per una nuova distribuzione:
+Suddivisa nelle seguenti sezioni in base al flusso di distribuzione, consultabili secondo necessità:
 
-1. Rimuovi il repository precedente.
-2. Utilizza il pulsante "fork" situato nell'angolo in alto a destra della pagina per fare il fork del progetto corrente.
-3. Sulla [pagina Nuovo Progetto di Vercel](https://vercel.com/new), seleziona il progetto appena forkato dalla sezione Importa Repository Git e procedi con la distribuzione.
-
-### Aggiornamenti Automatici
-
-> Nel caso si verifichi un errore durante l'esecuzione della sincronizzazione upstream, eseguire manualmente una sola sincronizzazione del fork.
-
-Una volta che hai fatto il fork del progetto, a causa delle restrizioni di GitHub, è necessario abilitare manualmente le Azioni (Actions) nella pagina delle Actions del progetto forkato e attivare l'azione di sincronizzazione upstream (Upstream Sync). Dopo l'attivazione, gli aggiornamenti verranno eseguiti automaticamente ogni giorno.
-
-![Aggiornamenti Automatici](https://img.newzone.top/2023-05-19-11-57-59.png?imageMogr2/format/webp)
-
-![Abilitazione Aggiornamenti Automatici](https://img.newzone.top/2023-05-19-11-59-26.png?imageMogr2/format/webp)
-
-### Aggiornamenti Manuali
-
-Se desideri aggiornare manualmente immediatamente, puoi fare riferimento alla [documentazione di GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) per apprendere come sincronizzare il progetto forkato con il codice upstream.
-
-Sentiti libero di mostrare il tuo supporto a questo progetto dando un like/seguendo, oppure seguendo l'autore, per rimanere informato riguardo alle notifiche tempestive relative ai nuovi aggiornamenti delle funzionalità.
+- **[Distribuzione Standard](./deploy/standard)** — Riutilizza il backend condiviso ufficiale, con supporto per build locale, Vercel, Cloudflare Pages e Docker.
+- **[Deploy Offline](./deploy/offline)** — Soluzione offline per ambienti isolati come intranet aziendali o reti governative, senza backend né account.
+- **[Configurazione e Personalizzazione](./deploy/configuration)** — Modifica il titolo del sito, la descrizione, i prompt e collega un backend personalizzato.
+- **[Mantenere il Fork Sincronizzato](./deploy/sync-updates)** — Fai seguire al tuo fork gli aggiornamenti upstream automaticamente, evitando di restare indietro.
